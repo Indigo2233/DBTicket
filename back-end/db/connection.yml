@@ -1,0 +1,28 @@
+env: ENV["GENIE_ENV"]
+
+dev:
+  adapter: MySQL
+  database: bookadmin
+  host: 127.0.0.1
+  username: root
+  password: su1yao2
+  port: 3306
+  config:
+
+prod:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:
+
+test:
+  adapter:
+  database:
+  host:
+  username:
+  password:
+  port:
+  config:
